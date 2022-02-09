@@ -21,6 +21,7 @@ defmodule WeatherApplication.MixProject do
     [
       mod: {WeatherApplication.Application, []},
       extra_applications: [:logger, :runtime_tools]
+      applications: [:httpoison]]
     ]
   end
 
